@@ -6,31 +6,37 @@
 void VertexArrayObject::init()
 {
   glGenVertexArrays(1, &id);
+  check_gl_error();
 }
 
 void VertexArrayObject::bind()
 {
   glBindVertexArray(id);
+  check_gl_error();
 }
 
 void VertexArrayObject::free()
 {
   glDeleteVertexArrays(1, &id);
+  check_gl_error();
 }
 
 void VertexBufferObject::init()
 {
   glGenBuffers(1,&id);
+  check_gl_error();
 }
 
 void VertexBufferObject::bind()
 {
   glBindBuffer(GL_ARRAY_BUFFER,id);
+  check_gl_error();
 }
 
 void VertexBufferObject::free()
 {
   glDeleteBuffers(1,&id);
+  check_gl_error();
 }
 
 void VertexBufferObject::update(const Eigen::MatrixXf& M)
@@ -40,6 +46,7 @@ void VertexBufferObject::update(const Eigen::MatrixXf& M)
   glBufferData(GL_ARRAY_BUFFER, sizeof(float)*M.size(), M.data(), GL_DYNAMIC_DRAW);
   rows = M.rows();
   cols = M.cols();
+  check_gl_error();
 }
 
 bool Program::init(
@@ -74,12 +81,14 @@ bool Program::init(
     return false;
   }
 
+  check_gl_error();
   return true;
 }
 
 void Program::bind()
 {
   glUseProgram(program_shader);
+  check_gl_error();
 }
 
 GLint Program::attrib(const std::string &name) const
@@ -106,6 +115,7 @@ GLint Program::bindVertexAttribArray(
   VBO.bind();
   glEnableVertexAttribArray(id);
   glVertexAttribPointer(id, VBO.rows, GL_FLOAT, GL_FALSE, 0, 0);
+  check_gl_error();
 
   return id;
 }
@@ -127,6 +137,7 @@ void Program::free()
     glDeleteShader(fragment_shader);
     fragment_shader = 0;
   }
+  check_gl_error();
 }
 
 GLuint Program::create_shader_helper(GLint type, const std::string &shader_string)
@@ -157,6 +168,7 @@ GLuint Program::create_shader_helper(GLint type, const std::string &shader_strin
     cerr << "Error: " << endl << buffer << endl;
     return (GLuint) 0;
   }
+  check_gl_error();
 
   return id;
 }

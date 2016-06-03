@@ -1,3 +1,5 @@
+// This example is heavily based on the tutorial at https://open.gl
+
 #include <GLFW/glfw3.h>
 
 // OpenGL Helpers to reduce the clutter
@@ -47,18 +49,18 @@ int main(void)
     VAO.init();
     VAO.bind();
 
-    check_gl_error();
     // Initialize the VBO with the vertices data
+    // A VBO is a data container that lives in the GPU memory
     VertexBufferObject VBO;
     VBO.init();
-    check_gl_error();
 
     Eigen::MatrixXf V(2,3);
     V << 0,  0.5, -0.5, 0.5, -0.5, -0.5;
     VBO.update(V);
-    check_gl_error();
 
     // Initialize the OpenGL Program
+    // A program controls the OpenGL pipeline and it must contains
+    // at least a vertex shader and a fragment shader to be valid
     Program program;
     const GLchar* vertex_shader =
             "#version 150 core\n"
@@ -70,13 +72,25 @@ int main(void)
     const GLchar* fragment_shader =
             "#version 150 core\n"
                     "out vec4 outColor;"
+                    "uniform vec3 triangleColor;"
                     "void main()"
                     "{"
-                    "    outColor = vec4(1.0, 1.0, 1.0, 1.0);"
+                    "    outColor = vec4(triangleColor, 1.0);"
                     "}";
+
+    // Compile the two shaders and upload the binary to the GPU
+    // Note that we have to explicitly specify that the output "slot" called outColor
+    // is the one that we want in the fragment buffer (and thus on screen)
     program.init(vertex_shader,fragment_shader,"outColor");
     program.bind();
+
+    // The vertex shader wants the position of the vertices as an input.
+    // The following line connects the VBO we defined above with the position "slot"
+    // in the vertex shader
     program.bindVertexAttribArray("position",VBO);
+
+    // Save the current time --- it will be used to dynamically change the triangle color
+    auto t_start = std::chrono::high_resolution_clock::now();
 
     // Loop until the user closes the window
     while (!glfwWindowShouldClose(window))
@@ -86,6 +100,11 @@ int main(void)
 
         // Bind your program
         program.bind();
+
+        // Set the uniform value depending on the time difference
+        auto t_now = std::chrono::high_resolution_clock::now();
+        float time = std::chrono::duration_cast<std::chrono::duration<float>>(t_now - t_start).count();
+        glUniform3f(program.uniform("triangleColor"), (float)(sin(time * 4.0f) + 1.0f) / 2.0f, 0.0f, 0.0f);
 
         // Clear the framebuffer
         glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
