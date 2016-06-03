@@ -32,10 +32,10 @@ include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../ext/glfw/include")
 set(LIBRARIES "glfw" ${GLFW_LIBRARIES})
 
 ### On windows, you also need glew
-if(WIN32)
+if((UNIX AND NOT APPLE) OR WIN32)
   set(GLEW_INSTALL OFF CACHE BOOL " " FORCE)
-  add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/ext/glew" "glew")
-  include_directories("${CMAKE_CURRENT_SOURCE_DIR}/ext/glew/include")
+  add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/../ext/glew" "glew")
+  include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../ext/glew/include")
   list(APPEND LIBRARIES "glew")
 endif()
 
