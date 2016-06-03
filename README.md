@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/danielepanozzo/cg.svg?branch=master)](https://travis-ci.org/danielepanozzo/cg)
+[![Build status](https://ci.appveyor.com/api/projects/status/3b1dti4xig8i3c4a?svg=true)](https://ci.appveyor.com/project/danielepanozzo/cg)
+
 # CG Fall 2016
 
 Assignment 1: Ray tracing and Animation
@@ -30,7 +33,7 @@ cd build
 cmake ../
 make
 
-I suggest to use CLion if you do not have a preference in IDE.
+I suggest to use CLion if you do not have a favorite IDE.
 
 # Schedule
 Sept 2 - Dec 15

@@ -10,9 +10,6 @@
 #  undef max
 #  undef min
 #  undef DrawText
-#endif
-
-#ifndef __APPLE__
 #  define GLEW_STATIC
 #  include <GL/glew.h>
 #endif
