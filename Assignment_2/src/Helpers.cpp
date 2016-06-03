@@ -1,7 +1,46 @@
-#include "Program.h"
+#include "Helpers.h"
 
 #include <iostream>
 #include <fstream>
+
+void VertexArrayObject::init()
+{
+  glGenVertexArrays(1, &id);
+}
+
+void VertexArrayObject::bind()
+{
+  glBindVertexArray(id);
+}
+
+void VertexArrayObject::free()
+{
+  glDeleteVertexArrays(1, &id);
+}
+
+void VertexBufferObject::init()
+{
+  glGenBuffers(1,&id);
+}
+
+void VertexBufferObject::bind()
+{
+  glBindBuffer(GL_ARRAY_BUFFER,id);
+}
+
+void VertexBufferObject::free()
+{
+  glDeleteBuffers(1,&id);
+}
+
+void VertexBufferObject::update(const Eigen::MatrixXf& M)
+{
+  assert(id != 0);
+  glBindBuffer(GL_ARRAY_BUFFER, id);
+  glBufferData(GL_ARRAY_BUFFER, sizeof(float)*M.size(), M.data(), GL_DYNAMIC_DRAW);
+  rows = M.rows();
+  cols = M.cols();
+}
 
 bool Program::init(
   const std::string &vertex_shader_string,
@@ -54,21 +93,20 @@ GLint Program::uniform(const std::string &name) const
 }
 
 GLint Program::bindVertexAttribArray(
-  const std::string &name, GLuint bufferID, const Eigen::MatrixXf &M, bool refresh) const
+        const std::string &name, VertexBufferObject& VBO) const
 {
   GLint id = attrib(name);
   if (id < 0)
     return id;
-  if (M.size() == 0)
+  if (VBO.id == 0)
   {
     glDisableVertexAttribArray(id);
     return id;
   }
-  glBindBuffer(GL_ARRAY_BUFFER, bufferID);
-  if (refresh)
-    glBufferData(GL_ARRAY_BUFFER, sizeof(float)*M.size(), M.data(), GL_DYNAMIC_DRAW);
-  glVertexAttribPointer(id, M.rows(), GL_FLOAT, GL_FALSE, 0, 0);
+  VBO.bind();
   glEnableVertexAttribArray(id);
+  glVertexAttribPointer(id, VBO.rows, GL_FLOAT, GL_FALSE, 0, 0);
+
   return id;
 }
 
@@ -122,3 +160,27 @@ GLuint Program::create_shader_helper(GLint type, const std::string &shader_strin
 
   return id;
 }
+
+void _check_gl_error(const char *file, int line)
+{
+  GLenum err (glGetError());
+
+  while(err!=GL_NO_ERROR)
+  {
+    std::string error;
+
+    switch(err)
+    {
+      case GL_INVALID_OPERATION:      error="INVALID_OPERATION";      break;
+      case GL_INVALID_ENUM:           error="INVALID_ENUM";           break;
+      case GL_INVALID_VALUE:          error="INVALID_VALUE";          break;
+      case GL_OUT_OF_MEMORY:          error="OUT_OF_MEMORY";          break;
+      case GL_INVALID_FRAMEBUFFER_OPERATION:  error="INVALID_FRAMEBUFFER_OPERATION";  break;
+    }
+
+    std::cerr << "GL_" << error.c_str() << " - " << file << ":" << line << std::endl;
+    err = glGetError();
+  }
+}
+
+

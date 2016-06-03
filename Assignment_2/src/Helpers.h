@@ -27,6 +27,48 @@
 #   include <GL/gl.h>
 #endif
 
+class VertexArrayObject
+{
+public:
+    unsigned int id;
+
+    VertexArrayObject() : id(0) {}
+
+    // Create a new VAO
+    void init();
+
+    // Select this VAO for subsequent draw calls
+    void bind();
+
+    // Release the id
+    void free();
+};
+
+class VertexBufferObject
+{
+public:
+    typedef unsigned int GLuint;
+    typedef int GLint;
+
+    GLuint id;
+    GLuint rows;
+    GLuint cols;
+
+    VertexBufferObject() : id(0), rows(0), cols(0) {}
+
+    // Create a new empty VBO
+    void init();
+
+    // Updates the VBO with a matrix M
+    void update(const Eigen::MatrixXf& M);
+
+    // Select this VBO for subsequent draw calls
+    void bind();
+
+    // Release the id
+    void free();
+};
+
 // This class wraps an OpenGL program composed of two shaders
 class Program
 {
@@ -42,8 +84,8 @@ public:
 
   // Create a new shader from the specified source strings
   bool init(const std::string &vertex_shader_string,
-    const std::string &fragment_shader_string,
-    const std::string &fragment_data_name);
+  const std::string &fragment_shader_string,
+  const std::string &fragment_data_name);
 
   // Select this shader for subsequent draw calls
   void bind();
@@ -57,12 +99,21 @@ public:
   // Return the OpenGL handle of a uniform attribute (-1 if it does not exist)
   GLint uniform(const std::string &name) const;
 
-  // Bind a per-vertex array attribute and refresh its contents from a matrix of floats
-  GLint bindVertexAttribArray(const std::string &name, GLuint bufferID,
-                              const Eigen::MatrixXf &M, bool refresh) const;
+  // Bind a per-vertex array attribute
+  GLint bindVertexAttribArray(const std::string &name, VertexBufferObject& VBO) const;
 
   GLuint create_shader_helper(GLint type, const std::string &shader_string);
 
 };
+
+// From: https://blog.nobel-joergensen.com/2013/01/29/debugging-opengl-using-glgeterror/
+void _check_gl_error(const char *file, int line);
+
+///
+/// Usage
+/// [... some opengl calls]
+/// glCheckError();
+///
+#define check_gl_error() _check_gl_error(__FILE__,__LINE__)
 
 #endif

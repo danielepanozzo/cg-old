@@ -34,3 +34,7 @@ I suggest to use CLion if you do not have a preference in IDE.
 
 # Schedule
 Sept 2 - Dec 15
+
+# Debugging tips
+
+check_gl_error();
