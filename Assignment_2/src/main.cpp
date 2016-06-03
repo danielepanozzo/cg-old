@@ -1,15 +1,16 @@
 // This example is heavily based on the tutorial at https://open.gl
 
-
 // OpenGL Helpers to reduce the clutter
 #include "Helpers.h"
 
 // GLFW is necessary to handle the OpenGL context
 #include <GLFW/glfw3.h>
 
-
 // Linear Algebra Library
 #include <Eigen/Core>
+
+
+#include <chrono>
 
 int main(void)
 {
