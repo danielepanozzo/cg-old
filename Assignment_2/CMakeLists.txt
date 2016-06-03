@@ -30,6 +30,7 @@ set(GLFW_BUILD_TESTS OFF CACHE BOOL " " FORCE)
 set(GLFW_BUILD_DOCS OFF CACHE BOOL " " FORCE)
 set(GLFW_BUILD_INSTALL OFF CACHE BOOL " " FORCE)
 add_subdirectory("${CMAKE_CURRENT_SOURCE_DIR}/../ext/glfw" "glfw")
+include_directories("${CMAKE_CURRENT_SOURCE_DIR}/../ext/glfw/include")
 set(LIBRARIES "glfw" ${GLFW_LIBRARIES})
 
 ### On windows, you also need glew
@@ -44,8 +45,6 @@ endif()
 file(GLOB SOURCES
 "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp"
 )
-
-message(FATAL_ERROR ${LIBRARIES})
 
 add_executable(${PROJECT_NAME}_bin ${SOURCES})
 target_link_libraries(${PROJECT_NAME}_bin ${LIBRARIES})
