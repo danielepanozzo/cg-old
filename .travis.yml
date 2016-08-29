@@ -7,7 +7,7 @@ matrix:
       script:
         - git submodule update --init --recursive
         - mkdir ext/glfw/include/GL
-        - wget -P ext/glfw/include/GL http://www.opengl.org/registry/api/GL/glcorearb.h
+        - wget --no-check-certificate -P ext/glfw/include/GL https://www.opengl.org/registry/api/GL/glcorearb.h
         - cd Assignment_1
         - mkdir build
         - cd build
