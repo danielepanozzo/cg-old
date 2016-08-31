@@ -9,8 +9,58 @@
 // Linear Algebra Library
 #include <Eigen/Core>
 
-
+// Timer
 #include <chrono>
+
+// VertexBufferObject wrapper
+VertexBufferObject VBO;
+
+// Contains the vertex positions
+Eigen::MatrixXf V(2,3);
+
+void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
+{
+    // Get the position of the mouse in the window
+    double xpos, ypos;
+    glfwGetCursorPos(window, &xpos, &ypos);
+
+    // Get the size of the window
+    int width, height;
+    glfwGetWindowSize(window, &width, &height);
+
+    // Convert screen position to world coordinates
+    double xworld = ((xpos/double(width))*2)-1;
+    double yworld = (((height-1-ypos)/double(height))*2)-1; // NOTE: y axis is flipped in glfw
+
+    // Update the position of the first vertex if the left button is pressed
+    if (button == GLFW_MOUSE_BUTTON_LEFT && action == GLFW_PRESS)
+        V.col(0) << xworld, yworld;
+
+    // Upload the change to the GPU
+    VBO.update(V);
+}
+
+void key_callback(GLFWwindow* window, int key, int scancode, int action, int mods)
+{
+    // Update the position of the first vertex if the keys 1,2, or 3 are pressed
+    switch (key)
+    {
+        case  GLFW_KEY_1:
+            V.col(0) << -0.5,  0.5;
+            break;
+        case GLFW_KEY_2:
+            V.col(0) << 0,  0.5;
+            break;
+        case  GLFW_KEY_3:
+            V.col(0) << 0.5,  0.5;
+            break;
+        default:
+            break;
+    }
+
+    // Upload the change to the GPU
+    VBO.update(V);
+}
 
 int main(void)
 {
@@ -55,10 +105,9 @@ int main(void)
 
     // Initialize the VBO with the vertices data
     // A VBO is a data container that lives in the GPU memory
-    VertexBufferObject VBO;
     VBO.init();
 
-    Eigen::MatrixXf V(2,3);
+    V.resize(2,3);
     V << 0,  0.5, -0.5, 0.5, -0.5, -0.5;
     VBO.update(V);
 
@@ -96,6 +145,12 @@ int main(void)
     // Save the current time --- it will be used to dynamically change the triangle color
     auto t_start = std::chrono::high_resolution_clock::now();
 
+    // Register the keyboard callback
+    glfwSetKeyCallback(window, key_callback);
+
+    // Register the mouse callback
+    glfwSetMouseButtonCallback(window, mouse_button_callback);
+
     // Loop until the user closes the window
     while (!glfwWindowShouldClose(window))
     {
@@ -124,10 +179,12 @@ int main(void)
         glfwPollEvents();
     }
 
+    // Deallocate opengl memory
     program.free();
     VAO.free();
     VBO.free();
 
+    // Deallocate glfw internals
     glfwTerminate();
     return 0;
 }
