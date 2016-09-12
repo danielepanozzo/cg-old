@@ -14,7 +14,7 @@ Phone: 212 998 3208
 
 URL: [http://cs.nyu.edu/~panozzo/](http://cs.nyu.edu/~panozzo/)
 
-Office Hours: Mondays, 5pm-6pm and by appointment
+Office Hours: Mondays, 5pm-6pm and by appointment, Room 1224, 719 Broadway, 12th Floor
 
 ### Assistant
 *Zhenyi He*
@@ -23,7 +23,7 @@ Office Hours: Mondays, 5pm-6pm and by appointment
 
 [https://snowymo.github.io/zhenyi-he/](https://snowymo.github.io/zhenyi-he/)
 
-Office Hours: TBD
+Office Hours: Thursdays, 5pm-7pm, Room 412 Warren Weaver Hall
 
 ### Lectures:
 Mondays at 7:10pm - 9pm
