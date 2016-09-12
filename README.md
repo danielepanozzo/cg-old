@@ -92,13 +92,16 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * Assignment 4: Final Project
 
-# Compilation instructions
+# Compilation Instructions
 
+```bash
 git clone --recursive https://github.com/danielepanozzo/cg
 cd cg
+cd Assignment_1
 mkdir build
 cd build
 cmake ../
 make
+```
 
-If you are looking for an IDE, I suggest to use CLion.
+If you are looking for an IDE, I suggest to use [CLion](https://www.jetbrains.com/clion/).
