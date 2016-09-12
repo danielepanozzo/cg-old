@@ -5,9 +5,13 @@
 
 ### Course Instructor
 *Daniele Panozzo*
+
 Room 1224, 719 Broadway, 12th Floor
+
 Phone: 212 998 3208
+
 [panozzo@nyu.edu](mailto:panozzo@nyu.edu)
+
 URL: [http://cs.nyu.edu/~panozzo/](http://cs.nyu.edu/~panozzo/)
 
 Office Hours: Mondays, 5pm-6pm and by appointment
