@@ -14,7 +14,9 @@ Office Hours: Mondays, 5pm-6pm and by appointment
 
 ### Assistant
 *Zhenyi He*
+
 [zhenyi.he@nyu.edu](mailto:zhenyi.he@nyu.edu)
+
 [https://snowymo.github.io/zhenyi-he/](https://snowymo.github.io/zhenyi-he/)
 
 Office Hours: TBD
