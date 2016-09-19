@@ -84,7 +84,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [General guidelines](http://cs.nyu.edu/~panozzo/cg/generalrules.pdf)
 
-* Assignment 1: Ray tracing
+* [Assignment 1: Ray tracing](http://cs.nyu.edu/~panozzo/cg/ex1.pdf)
 
 * Assignment 2: 2D Drawing App
 
