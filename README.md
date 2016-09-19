@@ -53,7 +53,7 @@ ISBN 9781482229394
 The course schedule is tentative and *will* be adjusted along the way.
 
 * 09/12: [01 - Introduction, Images  (Chapters 1,2,3)](http://cs.nyu.edu/~panozzo/cg/01%20-%20Introduction,%20Images.pdf)
-* 09/19: [02 - Ray Tracing, C++ (Chapter 4,10)][http://cs.nyu.edu/~panozzo/cg/02%20-%20Ray%20Tracing,%20C++.pdf]
+* 09/19: [02 - Ray Tracing, C++ (Chapter 4,10)](http://cs.nyu.edu/~panozzo/cg/02%20-%20Ray%20Tracing,%20C++.pdf)
 
 *Assignment 1: Ray tracing (due in 3 weeks)*
 
