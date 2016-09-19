@@ -52,12 +52,12 @@ ISBN 9781482229394
 
 The course schedule is tentative and *will* be adjusted along the way.
 
-* 09/12: [01 - Intro, Basic Math Pointers, Images, Ray Tracing 1 (Chapters 1,2,3,4)](http://cs.nyu.edu/~panozzo/cg/01%20-%20Introduction.pdf)
-* 09/19: 02 - C++ and CMake quick intro (slides), primer linear algebra (Chapter 2,5)
+* 09/12: [01 - Introduction, Images  (Chapters 1,2,3)](http://cs.nyu.edu/~panozzo/cg/01%20-%20Introduction,%20Images.pdf)
+* 09/19: [02 - Ray Tracing, C++ (Chapter 4,10)][http://cs.nyu.edu/~panozzo/cg/02%20-%20Ray%20Tracing,%20C++.pdf]
 
 *Assignment 1: Ray tracing (due in 3 weeks)*
 
-* 09/26: 03 - Ray tracing 2 and Shading (Chapers 4, 10)
+* 09/26: 03 - Linear Algebra Overview (Chapters 2, 5)
 * 10/03: 04 - Transformation matrices and affine spaces (Chapter 6)
 * 10/17: 05 - Rasterization 1 (Chapter 8, 17)
 
