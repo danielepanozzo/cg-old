@@ -57,13 +57,13 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 *Assignment 1: Ray tracing (due in 3 weeks)*
 
-* 09/26: 03 - Linear Algebra Overview (Chapters 2, 5)
-* 10/03: 04 - Transformation matrices and affine spaces (Chapter 6)
-* 10/17: 05 - Rasterization 1 (Chapter 8, 17)
+* 09/26: [03 - Basic Linear Algebra and 2D Transformations(Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf)
+* 10/03: 04 - Orthographic Transformations, Rasterization 1 (Chapter 7,8, http://open.gl)
+* 10/17: 05 - Rasterization 2, GLFW (Chapter 8, 17)
 
 *Assignment 2: 2D Vector graphics editor (due in three weeks)*
 
-* 10/24: 06 - Rasterization 2 (http://open.gl and Chapter 17)
+* 10/24: 06 - 3D Transformations and Perspective Transformation  (Chapter 8 and Chapter 17)
 * 10/31: 07 - Curves and Splines (Chapter 15)
 * 11/07: 08 - Viewing Transformations (Chapter 7)
 
