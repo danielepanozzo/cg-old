@@ -59,7 +59,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * 09/26: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf)
 * 10/03: [04 - Viewing Transformations and Rasterization (Chapter 7,8)](http://cs.nyu.edu/~panozzo/cg/04%20-%20Viewing%20Transformations,%20Rasterization.pdf)
-* 10/17: 05 - Rasterization 2, GLFW (Chapter 8, 17, http://open.gl)
+* 10/17: [05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg/05%20-%20The%20OpenGL%20Graphics%20Pipeline.pdf)
 
 *Assignment 2: 2D Vector graphics editor (due in three weeks)*
 
@@ -86,7 +86,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [Assignment 1: Ray tracing](http://cs.nyu.edu/~panozzo/cg/ex1.pdf)
 
-* Assignment 2: 2D Drawing App
+* [Assignment 2: 2D Drawing App](http://cs.nyu.edu/~panozzo/cg/ex2.pdf)
 
 * Assignment 3: 3D Mesh viewer
 
