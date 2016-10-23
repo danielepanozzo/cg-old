@@ -63,7 +63,8 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 *Assignment 2: 2D Vector graphics editor (due in three weeks)*
 
-* 10/24: 06 - 3D Transformations and Perspective Transformation  (Chapter 8 and Chapter 17)
+* 10/24: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf)
+
 * 10/31: 07 - Curves and Splines (Chapter 15)
 * 11/07: 08 - Viewing Transformations (Chapter 7)
 
