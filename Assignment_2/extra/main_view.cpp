@@ -99,6 +99,26 @@ int main(void)
     // Make the window's context current
     glfwMakeContextCurrent(window);
 
+    #ifndef __APPLE__
+      glewExperimental = true;
+      GLenum err = glewInit();
+      if(GLEW_OK != err)
+      {
+        /* Problem: glewInit failed, something is seriously wrong. */
+       fprintf(stderr, "Error: %s\n", glewGetErrorString(err));
+      }
+      glGetError(); // pull and savely ignonre unhandled errors like GL_INVALID_ENUM
+      fprintf(stdout, "Status: Using GLEW %s\n", glewGetString(GLEW_VERSION));
+    #endif
+
+    int major, minor, rev;
+    major = glfwGetWindowAttrib(window, GLFW_CONTEXT_VERSION_MAJOR);
+    minor = glfwGetWindowAttrib(window, GLFW_CONTEXT_VERSION_MINOR);
+    rev = glfwGetWindowAttrib(window, GLFW_CONTEXT_REVISION);
+    printf("OpenGL version recieved: %d.%d.%d\n", major, minor, rev);
+    printf("Supported OpenGL is %s\n", (const char*)glGetString(GL_VERSION));
+    printf("Supported GLSL is %s\n", (const char*)glGetString(GL_SHADING_LANGUAGE_VERSION));
+
     // Initialize the VAO
     // A Vertex Array Object (or VAO) is an object that describes how the vertex
     // attributes are stored in a Vertex Buffer Object (or VBO). This means that
