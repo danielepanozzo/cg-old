@@ -65,7 +65,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * 10/24: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf)
 
-* 10/31: 07 - Curves and Splines (Chapter 15)
+* 10/31: [07 - Designing Interpolating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg/07%20-%20Designing%20Interpolating%20Curves.pdf)
 * 11/07: 08 - Viewing Transformations (Chapter 7)
 
 *Assignment 3: 3D Mesh viewer (due in two weeks)*
