@@ -66,13 +66,13 @@ The course schedule is tentative and *will* be adjusted along the way.
 * 10/24: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf)
 
 * 10/31: [07 - Designing Interpolating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg/07%20-%20Designing%20Interpolating%20Curves.pdf)
-* 11/07: 08 - Viewing Transformations (Chapter 7)
+* 11/07: [08 - Designing Approximating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg/08%20-%20Designing%20Approximating%20Curves.pdf) [ (Video)  ](http://cs.nyu.edu/~panozzo/cg/08%20-%20Designing%20Approximating%20Curves.mov)
 
-*Assignment 3: 3D Mesh viewer (due in two weeks)*
+*Assignment 3: 3D Mesh viewer (due in three weeks)*
 
 * 11/14: 09 - Data structures and Implicit Modeling (Chapter 12, 22)
 
-*Assignment 4: Final Project Discussion (due in 6 weeks)*
+*Assignment 4: Final Project Discussion (due in five weeks)*
 
 * 11/21: 10 - Texturing 1: Textures and procedural noise (Chapter 11)
 * 11/28: 11 - Animation and Quaternions (Chapter 16)
@@ -89,7 +89,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [Assignment 2: 2D Drawing App](http://cs.nyu.edu/~panozzo/cg/ex2.pdf)
 
-* Assignment 3: 3D Mesh viewer
+* [Assignment 3: 3D Scene Editor](http://cs.nyu.edu/~panozzo/cg/ex3.pdf)
 
 * Assignment 4: Final Project
 
