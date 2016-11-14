@@ -70,7 +70,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 *Assignment 3: 3D Mesh viewer (due in three weeks)*
 
-* 11/14: 09 - Data structures and Implicit Modeling (Chapter 12, 22)
+* 11/14: [09 - Designing Surfaces (Chapter 7)](http://cs.nyu.edu/~panozzo/cg/09%20-%20Designing%20Surfaces.pdf)
 
 *Assignment 4: Final Project Discussion (due in five weeks)*
 
@@ -91,7 +91,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [Assignment 3: 3D Scene Editor](http://cs.nyu.edu/~panozzo/cg/ex3.pdf)
 
-* Assignment 4: Final Project
+* [Assignment 4: Final Project](http://cs.nyu.edu/~panozzo/cg/ex4.pdf)
 
 # Compilation Instructions
 
