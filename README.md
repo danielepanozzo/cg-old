@@ -75,10 +75,10 @@ The course schedule is tentative and *will* be adjusted along the way.
 *Assignment 4: Final Project Discussion (due in five weeks)*
 
 * 11/21: [10 - Texture Mapping (Chapter 11)](http://cs.nyu.edu/~panozzo/cg/10%20-%20Texture%20Mapping.pdf)
-* 11/28: 11 - Mesh and Spatial Data Structures
+* 11/28: [11 - Spatial Data Structures (Chapter 12)](http://cs.nyu.edu/~panozzo/cg/11%20-%20Spatial%20Data%20Structures.pdf)
 * 12/05: 12 - Procedural Noise Generation (Invited Lecture, Prof. Ken Perlin)
 * 12/12: 13 - Animation and Quaternions
-* 12/13: 14 - Geometry Acquisition and Processing or Open Q&A for the projects
+* 12/13: 14 - Mesh Data Structures or Open Q&A for the projects
 * 12/19: 15 - FINALS and project presentation
 
 ## Assignments
