@@ -75,7 +75,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 *Assignment 4: Final Project Discussion*
 
 * 11/20: 10 - Texture Mapping (Chapter 11)
-Jeremie * 11/27: 11 - Spatial Data Structures
+* 11/27: 11 - Spatial Data Structures
 * 12/04: 12 - Procedural Noise Generation (Invited Lecture, Prof. Ken Perlin)
 * 12/11: 13 - Animation and Quaternions
 * 12/12: 14 - Mesh Data Structures or Open Q&A for the projects
