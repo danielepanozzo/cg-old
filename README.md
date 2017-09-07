@@ -1,12 +1,12 @@
 [![Build Status](https://travis-ci.org/danielepanozzo/cg.svg?branch=master)](https://travis-ci.org/danielepanozzo/cg)
 [![Build status](https://ci.appveyor.com/api/projects/status/3b1dti4xig8i3c4a?svg=true)](https://ci.appveyor.com/project/danielepanozzo/cg)
 
-# Graduate Computer Graphics, CSCI-GA 2270-001 Fall 2016
+# Graduate Computer Graphics, CSCI-GA 2270-001 Fall 2017
 
 ### Course Instructor
 *Daniele Panozzo*
 
-Room 1224, 719 Broadway, 12th Floor
+60 5th Ave, 5th Floor
 
 Phone: 212 998 3208
 
@@ -14,20 +14,20 @@ Phone: 212 998 3208
 
 URL: [http://cs.nyu.edu/~panozzo/](http://cs.nyu.edu/~panozzo/)
 
-Office Hours: Mondays, 5pm-6pm and by appointment, Room 1224, 719 Broadway, 12th Floor
+Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor
 
 ### Assistant
-*Zhenyi He*
+*Zhongshi Jiang*
 
-[zhenyi.he@nyu.edu](mailto:zhenyi.he@nyu.edu)
+[zhongshi@cims.nyu.edu](mailto:zhongshi@cims.nyu.edu)
 
-[https://snowymo.github.io/zhenyi-he/](https://snowymo.github.io/zhenyi-he/)
+[http://cs.nyu.edu/~zhongshi/](http://cs.nyu.edu/~zhongshi/)
 
-Office Hours: Thursdays, 5pm-7pm, Room 412 Warren Weaver Hall
+Office Hours: Tuesdays and Thursday, 2pm-3pm, 60 5th Ave, 5th Floor
 
 ### Lectures:
 Mondays at 7:10pm - 9pm
-Room 312 Warren Weaver Hall
+60 Fifth Ave C10
 
 ## Course Description
 
@@ -52,46 +52,46 @@ ISBN 9781482229394
 
 The course schedule is tentative and *will* be adjusted along the way.
 
-* 09/12: [01 - Introduction, Images  (Chapters 1,2,3)](http://cs.nyu.edu/~panozzo/cg/01%20-%20Introduction,%20Images.pdf)
-* 09/19: [02 - Ray Tracing, C++ (Chapter 4,10)](http://cs.nyu.edu/~panozzo/cg/02%20-%20Ray%20Tracing,%20C++.pdf)
+* 09/11: [01 - Introduction, Images  (Chapters 1,2,3)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.key.zip)
+* 09/18: [02 - Ray Tracing, C++ (Chapter 4,10)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.key.pdf)
 
-*Assignment 1: Ray tracing (due in 3 weeks)*
+*Assignment 1: Ray tracing*
 
-* 09/26: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf)
-* 10/03: [04 - Viewing Transformations and Rasterization (Chapter 7,8)](http://cs.nyu.edu/~panozzo/cg/04%20-%20Viewing%20Transformations,%20Rasterization.pdf)
-* 10/17: [05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg/05%20-%20The%20OpenGL%20Graphics%20Pipeline.pdf)
+* 09/25: 03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)
+* 10/02: 04 - Viewing Transformations and Rasterization (Chapter 7,8)
+* 10/16: 05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)
 
-*Assignment 2: 2D Vector graphics editor (due in three weeks)*
+*Assignment 2: 2D Vector graphics editor*
 
-* 10/24: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf)
+* 10/23: 06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)
 
-* 10/31: [07 - Designing Interpolating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg/07%20-%20Designing%20Interpolating%20Curves.pdf)
-* 11/07: [08 - Designing Approximating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg/08%20-%20Designing%20Approximating%20Curves.pdf) [ (Video)  ](http://cs.nyu.edu/~panozzo/cg/08%20-%20Designing%20Approximating%20Curves.mov)
+* 10/30: 07 - Designing Interpolating Curves (Chapter 15)
+* 11/06: 08 - Designing Approximating Curves (Chapter 15)
 
-*Assignment 3: 3D Mesh viewer (due in three weeks)*
+*Assignment 3: 3D Mesh viewer*
 
-* 11/14: [09 - Designing Surfaces (Chapter 7)](http://cs.nyu.edu/~panozzo/cg/09%20-%20Designing%20Surfaces.pdf)
+* 11/13: 09 - Designing Surfaces (Chapter 7)]
 
-*Assignment 4: Final Project Discussion (due in five weeks)*
+*Assignment 4: Final Project Discussion*
 
-* 11/21: [10 - Texture Mapping (Chapter 11)](http://cs.nyu.edu/~panozzo/cg/10%20-%20Texture%20Mapping.pdf)
-* 11/28: [11 - Spatial Data Structures (Chapter 12)](http://cs.nyu.edu/~panozzo/cg/11%20-%20Spatial%20Data%20Structures.pdf)
-* 12/05: Procedural Noise Generation (Invited Lecture, Prof. Ken Perlin)
-* 12/12: [12 - Spatial and Skeletal Deformations (Chapter 16)](http://cs.nyu.edu/~panozzo//cg/12%20-%20Spatial%20and%20Skeletal%20Deformations.pdf)
-* 12/13: [13 - Meshes and Open Q&A for the final projects (Chapter 12)](http://cs.nyu.edu/~panozzo//cg/13%20-%20Meshes.pdf)
-* 12/19: FINALS and project presentation
+* 11/20: 10 - Texture Mapping (Chapter 11)
+Jeremie * 11/27: 11 - Spatial Data Structures
+* 12/04: 12 - Procedural Noise Generation (Invited Lecture, Prof. Ken Perlin)
+* 12/11: 13 - Animation and Quaternions
+* 12/12: 14 - Mesh Data Structures or Open Q&A for the projects
+* 12/19: 15 - FINALS and project presentation
 
 ## Assignments
 
-* [General guidelines](http://cs.nyu.edu/~panozzo/cg/generalrules.pdf)
+* [General guidelines](http://cs.nyu.edu/~panozzo/cg17/Assignments/0%20-%20General%20Rules.pdf) [(latex)](http://cs.nyu.edu/~panozzo/cg17/Assignments/0%20-%20General%20Rules.zip)
 
-* [Assignment 1: Ray tracing](http://cs.nyu.edu/~panozzo/cg/ex1.pdf)
+* [Assignment 1: Ray tracing](http://cs.nyu.edu/~panozzo/cg17/Assignments/1%20-%20Ray%20Tracing.pdf) [(latex)](http://cs.nyu.edu/~panozzo/cg17/Assignments/1%20-%20Ray%20Tracing.zip)
 
-* [Assignment 2: 2D Drawing App](http://cs.nyu.edu/~panozzo/cg/ex2.pdf)
+<!-- * [Assignment 2: 2D Drawing App](http://cs.nyu.edu/~panozzo/cg/ex2.pdf)
 
 * [Assignment 3: 3D Scene Editor](http://cs.nyu.edu/~panozzo/cg/ex3.pdf)
 
-* [Assignment 4: Final Project](http://cs.nyu.edu/~panozzo/cg/ex4.pdf)
+* [Assignment 4: Final Project](http://cs.nyu.edu/~panozzo/cg/ex4.pdf) -->
 
 # Compilation Instructions
 
