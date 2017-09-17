@@ -14,7 +14,7 @@ Phone: 212 998 3208
 
 URL: [http://cs.nyu.edu/~panozzo/](http://cs.nyu.edu/~panozzo/)
 
-Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor
+Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor, Room 540
 
 ### Assistant
 *Zhongshi Jiang*
