@@ -14,16 +14,16 @@ Phone: 212 998 3208
 
 URL: [http://cs.nyu.edu/~panozzo/](http://cs.nyu.edu/~panozzo/)
 
-Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor, Room 540
+Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor, Room 504
 
 ### Assistant
 *Zhongshi Jiang*
 
-[zhongshi@cims.nyu.edu](mailto:zhongshi@cims.nyu.edu)
+[jiangzs@nyu.edu](mailto:jiangzs@nyu.edu)
 
 [http://cs.nyu.edu/~zhongshi/](http://cs.nyu.edu/~zhongshi/)
 
-Office Hours: Tuesdays and Thursday, 2pm-3pm, 60 5th Ave, 5th Floor
+Office Hours: Tuesdays and Thursday, 2pm-3pm, 60 5th Ave, 5th Floor, Room 540
 
 ### Lectures:
 Mondays at 7:10pm - 9pm
