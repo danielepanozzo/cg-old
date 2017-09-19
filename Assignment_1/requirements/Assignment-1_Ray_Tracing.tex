@@ -1,0 +1,118 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{hyperref}
+\usepackage{url}
+\hypersetup{colorlinks=true}
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\renewcommand\familydefault{\sfdefault}
+\newcommand{\todo}[1]{{\bf\textcolor{red}{TODO: #1}}}
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{1cm}
+\setlength{\textheight}{7.7in}
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\parindent}{0.25cm}
+\setlength{\parskip}{0.1cm}
+
+\usepackage{fancyhdr,graphicx,lastpage}% http://ctan.org/pkg/{fancyhdr,graphicx,lastpage}
+\fancypagestyle{plain}{
+  \fancyhf{}% Clear header/footer
+  \fancyhead[L]{CSCI-GA.2270-001 - Computer Graphics - Fall 17 }% Right header
+  \fancyhead[R]{\includegraphics[height=20pt]{nyu.pdf}}% Right header
+  \fancyfoot[L]{Daniele Panozzo \\  \today}% Left footer
+  \fancyfoot[R]{\thepage}% Right footer
+}
+\pagestyle{plain}% Set page style to plain.
+
+\begin{document}
+
+\hspace{50pt}
+
+\begin{center}
+
+{\Huge \textbf{Assignment 1: Ray Tracing}}\\
+\vspace{10pt}
+Handout date: 9/19/2017\\
+Submission deadline: 10/15/2017,  23:59 EST\\
+Demo date: 10/17/2017 2-3PM 
+\end{center}
+%\vspace{0.5cm}
+
+\noindent This homework accounts for 17.5\% of your final grade. 
+
+\section*{Goal of this exercise}
+In this exercise you will write a raytracer, and use it to render spheres and more complex triangulated surfaces.
+
+\subsection*{Eigen}
+In all exercises you will need to do operations with vectors and matrices. To simplify the code, you will use \href{http://eigen.tuxfamily.org/}{\texttt{Eigen}}. 
+Have a look at the \href{http://eigen.tuxfamily.org/dox/GettingStarted.html}{"Getting Started"} page of \texttt{Eigen} as well as the \href{http://eigen.tuxfamily.org/dox/group__QuickRefPage.html}{Quick Reference} page for a reference of the basic matrix operations supported. 
+
+\subsection*{Submission}
+
+\begin{enumerate}
+\item Follow the link (to be sent by email) to create your repository in \url{https://github.com/NYUCG2017/assignment-1_USER} with starter code.
+\item Follow further instruction to set up travis badge.
+\item Modify the code following the assignment instructions
+\item Add a readme in pdf or markdown format as a report of what you did containing a screenshot for each task
+%\item Create a \textbf{private} repository in \url{https://github.com/NYUCG2017/} called \textbf{Assignment1\_USER}, where USER is the github username that you used when you filled the registration form
+\item Push the code into the repository before deadline and make sure travis-ci build passes.
+\end{enumerate}
+
+\subsection*{Questions}
+
+We advise all non-private questions be posted on \url{https://github.com/danielepanozzo/cg/issues} as reference for all students.
+For other questions, please email us or come to the office hours.
+\section{Mandatory Tasks}
+For each tasks below, add at least one image in the readme demonstrating the results. The code that you used for all tasks should be provided.
+
+\subsection{Ray Tracing Spheres}
+
+Modify the given program to support the rendering of multiple spheres in general position. Note that the provided code is only an example and the collision code that it uses is not general. You need to reimplement it from scratch.
+For this step, use simple Lambertian shading. 
+
+\subsection{Shading}
+
+Extend your ray tracer to support ambient and specular lighting. Render a scene with multiple spheres with different colors and different material properties (one sphere should be purely diffuse, another one specular).
+Add a second light source to your scene.
+
+\subsection{Perspective Projection}
+
+Extend your ray tracer to support perspective projection, and re-render the scenes you created in the previous tasks, showing the difference between the two projections.
+
+\subsection{Ray Tracing Triangle Meshes}
+
+Extend your ray tracer to load meshes in \href{https://en.wikipedia.org/wiki/OFF_(file_format)}{off format}. Load the two meshes provided in the \textit{data} folder and add them to your scene. Render them with different colors. Suggestion: You can store your mesh with two \texttt{Eigen} arrays V and F. V is a float array (dimension \#V $\times$ 3 where \#V is the number of vertices) that contains the positions of the vertices of the mesh, where the i-th row of V contains the coordinates of the i-th vertex. F is an integer array (dimension \#faces $\times$ 3 where \#F is the number of faces) which contains the descriptions of the triangles in the mesh. The i-th row of F will contain the indices of the vertices in V that form the i-th face, sorted counter-clockwise.
+
+\subsection{Shadows}
+
+Add shadows to the previous scene.
+
+\subsection{Reflections on the floor}
+
+Add a mirror that reflects all objects in the scene. 
+To simplify this task, you can simply transform the entire "floor" of the scene into a mirror.
+
+\section*{Optional Tasks.}
+
+These tasks are optional. Each one of these tasks is worth 1.5\% of the final grade. The optional points are added to the points of the other exercises, but the total sum of points that you gain with exercises cannot be more than 80\%.
+
+\subsection{Parallelization}
+
+Each pixel of the scene can be rendered independently. Integrate \href{https://www.threadingbuildingblocks.org}{Intel TBB} in your project and use the \textit{parallel for} to distribute the computation over all the available cores.
+
+\subsection{Animation}
+
+Create a simple animation by rendering multiple frames while moving the position of the camera and of the light source.
+
+%\bibliographystyle{plain}
+%\bibliography{bib.bib}
+\end{document}  
