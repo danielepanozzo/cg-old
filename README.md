@@ -96,9 +96,8 @@ The course schedule is tentative and *will* be adjusted along the way.
 # Compilation Instructions
 
 ```bash
-git clone --recursive https://github.com/danielepanozzo/cg
-cd cg
-cd Assignment_1
+git clone --recursive https://github.com/NYUCG2017/assignment-1-username
+cd assignment-1-username
 mkdir build
 cd build
 cmake ../
