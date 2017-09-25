@@ -52,8 +52,8 @@ ISBN 9781482229394
 
 The course schedule is tentative and *will* be adjusted along the way.
 
-* 09/11: [01 - Introduction, Images  (Chapters 1,2,3)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.key.zip)
-* 09/18: [02 - Ray Tracing, C++ (Chapter 4,10)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.key.pdf)
+* 09/11: [01 - Introduction, Images  (Chapters 1, 2, 3)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.key.zip)
+* 09/18: [02 - Ray Tracing, C++ (Chapter 4, 10)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.key.pdf)
 
 *Assignment 1: Ray tracing*
 
