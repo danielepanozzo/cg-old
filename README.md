@@ -14,16 +14,16 @@ Phone: 212 998 3208
 
 URL: [http://cs.nyu.edu/~panozzo/](http://cs.nyu.edu/~panozzo/)
 
-Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor, Room 540
+Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor, Room 504
 
 ### Assistant
 *Zhongshi Jiang*
 
-[zhongshi@cims.nyu.edu](mailto:zhongshi@cims.nyu.edu)
+[jiangzs@nyu.edu](mailto:jiangzs@nyu.edu)
 
 [http://cs.nyu.edu/~zhongshi/](http://cs.nyu.edu/~zhongshi/)
 
-Office Hours: Tuesdays and Thursday, 2pm-3pm, 60 5th Ave, 5th Floor
+Office Hours: Tuesdays and Thursday, 2pm-3pm, 60 5th Ave, 5th Floor, Room 540
 
 ### Lectures:
 Mondays at 7:10pm - 9pm
@@ -85,7 +85,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [General guidelines](http://cs.nyu.edu/~panozzo/cg17/Assignments/0%20-%20General%20Rules.pdf) [(latex)](http://cs.nyu.edu/~panozzo/cg17/Assignments/0%20-%20General%20Rules.zip)
 
-* [Assignment 1: Ray tracing](http://cs.nyu.edu/~panozzo/cg17/Assignments/1%20-%20Ray%20Tracing.pdf) [(latex)](http://cs.nyu.edu/~panozzo/cg17/Assignments/1%20-%20Ray%20Tracing.zip)
+* [Assignment 1: Ray tracing](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) [(latex)](Assignment_1/requirements/Assignment-1_Ray_Tracing.tex)
 
 <!-- * [Assignment 2: 2D Drawing App](http://cs.nyu.edu/~panozzo/cg/ex2.pdf)
 
@@ -96,9 +96,8 @@ The course schedule is tentative and *will* be adjusted along the way.
 # Compilation Instructions
 
 ```bash
-git clone --recursive https://github.com/danielepanozzo/cg
-cd cg
-cd Assignment_1
+git clone --recursive https://github.com/NYUCG2017/assignment-1-username
+cd assignment-1-username
 mkdir build
 cd build
 cmake ../
