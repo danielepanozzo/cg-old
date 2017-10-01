@@ -1,0 +1,97 @@
+\documentclass[11pt]{report}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true}
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\renewcommand\familydefault{\sfdefault}
+\newcommand{\todo}[1]{{\bf\textcolor{red}{TODO: #1}}}
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{1cm}
+\setlength{\textheight}{7.7in}
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\parindent}{0.25cm}
+\setlength{\parskip}{0.1cm}
+
+\usepackage{fancyhdr,graphicx,lastpage}% http://ctan.org/pkg/{fancyhdr,graphicx,lastpage}
+\fancypagestyle{plain}{
+  \fancyhf{}% Clear header/footer
+  \fancyhead[L]{CSCI-GA.2270-001 - Computer Graphics - Fall 17 }% Right header
+  \fancyhead[R]{\includegraphics[height=20pt]{nyu.pdf}}% Right header
+  \fancyfoot[L]{Daniele Panozzo \\  \today}% Left footer
+  \fancyfoot[R]{\thepage}% Right footer
+}
+\pagestyle{plain}% Set page style to plain.
+
+\begin{document}
+%/\includegraphics[scale=0.8]{nyu.pdf} 
+
+
+
+%\title{Shape Modeling and Geometry Processing}
+%\author{Exercise 1 - LIBIGL "Hello World"}
+%\maketitle
+
+\hspace{50pt}
+
+\begin{center}
+
+{\Huge \textbf{General Rules}}\\
+\vspace{10pt}
+\end{center}
+%\vspace{0.5cm}
+
+\subsection*{Plagiarism note and late submissions}
+Copying code (either from other students or from external sources) is strictly prohibited! We will be using automatic anti-plagiarism tools, and any violation of this rule will lead to expulsion from the class. Late submissions will generally not be accepted. In case of serious illness or emergency please notify the assistants and provide a relevant medical certificate.
+
+\subsection*{Provided Software}
+For this class, you will use the minimal framework available at  \href{https://github.com/danielepanozzo/cg}{https://github.com/danielepanozzo/cg}. It compiles on Windows, Linux and MacOSX. If you have trouble compiling follow the procedure used by the auto-builds (\href{https://travis-ci.org/danielepanozzo/cg}{Mac/Linux} and \href{https://ci.appveyor.com/project/danielepanozzo/cg}{Windows}) before contacting the assistant. Make sure to \href{http://git-scm.com/book/en/v2/Git-Basics-Getting-a-Git-Repository}{pull} the more recent changes from the git repository as we might be updating the source code from time to time.
+
+\subsubsection*{Compiling the Sample Projects}
+In order to compile the provided project files for a given assignment on your machine, you need to do the following:
+  \begin{enumerate}
+\item{Install \href{http://www.cmake.org/download/}{CMAKE}}
+\item{Clone the \href{https://github.com/danielepanozzo/cg}{repository} with the --recursive option. NOTE: The recursive option is very important and it will not work without it. }
+\item{Create a directory called \texttt{build} in the assignment directory \texttt{TOPDIR/Assignment\_X}, e.g. by typing in a terminal window:
+\texttt{cd TOPDIR/Assignment\_X; mkdir build}
+}
+\item{
+Create the necessary makefiles for compilation and place them inside the \texttt{build/} directory, using the CMAKE GUI (windows), or typing:
+\texttt{cd build; cmake ../}
+}
+\item{Compile and run the compiled executable by typing:
+\texttt{make; ./AssignmentX}
+}
+\end{enumerate}
+
+If you run into problems, please create an \href{https://github.com/danielepanozzo/cg/issues}{issue} on the github repository .
+
+\subsection*{What to Hand In}
+The delivery of the exercises is done using github classroom. The repository should follow the template provided, and it must contain:
+\begin{itemize}
+\item{The source code, together with the necessary CMAKE project files, but excluding all compiled binaries/libraries. Specifically, do not include the build/ directory. The code must successfully compile in TRAVIS on the Linux operating system.}
+\item{A README file (in pdf format) containing a description of what you've implemented and compilation
+instructions, as well as explanations/comments on your results.}
+\item{Screenshots of all your results with associated descriptions in the README file.}
+\end{itemize}
+
+Note: It will generally not be necessary to use additional external software for your assignments. If you find that you need to use additional binaries / external libraries other than those provided by us, please first get approval by filing an \href{https://github.com/danielepanozzo/cg/issues}{issue}.
+
+\subsection*{Grading}
+
+The code will be evaluated on Linux. In order to receive a grade, your code \textbf{must} compile on TRAVIS. If it does not pass the auto-build on github, the exercise will receive a grade of 0\%. 
+
+Your submission will be graded according to the quality of your image results, and the correctness of the implemented algorithms. The submitted code must reproduce exactly the images included in your readme. 
+
+To ensure fairness of your grade, you will be asked to briefly present your work to the teaching assistant. Each student will have 3-4 minutes to demo their submission and explain in some detail what has been implemented, report potential problems and how they tried to solve them, and point the assistants to the code locations where the various key points of the assignments have been implemented. If you cannot make it to the demo session, please schedule a separate meeting with the assistant in the week after the demo session.
+
+\end{document}  

@@ -57,13 +57,13 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 *Assignment 1: Ray tracing*
 
-* 09/25: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.key.zip)
-* 10/02: [04 - Viewing Transformations and Rasterization (Chapter 7, 8)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.pdf)[(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.key.zip)
-* 10/16: 05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)
+* 09/25: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.key.zip)
+* 10/02: [04 - Viewing Transformations and Rasterization (Chapter 7, 8)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.key.zip)
+* 10/16: [05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg17/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.key.zip)
 
 *Assignment 2: 2D Vector graphics editor*
 
-* 10/23: 06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)
+* 10/23: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg17/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.key.zip)
 
 * 10/30: 07 - Designing Interpolating Curves (Chapter 15)
 * 11/06: 08 - Designing Approximating Curves (Chapter 15)
