@@ -23,7 +23,7 @@ Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor, Room 5
 
 [http://cs.nyu.edu/~zhongshi/](http://cs.nyu.edu/~zhongshi/)
 
-Office Hours: Tuesdays and Thursday, 2pm-3pm, 60 5th Ave, 5th Floor, Room 540
+Office Hours: Tuesdays and Thursday, 2pm-3pm, 60 5th Ave, 5th Floor, Room 540.
 
 ### Lectures:
 Mondays at 7:10pm - 9pm
@@ -55,13 +55,13 @@ The course schedule is tentative and *will* be adjusted along the way.
 * 09/11: [01 - Introduction, Images  (Chapters 1, 2, 3)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.key.zip)
 * 09/18: [02 - Ray Tracing, C++ (Chapter 4, 10)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.key.pdf)
 
-*Assignment 1: Ray tracing*
+[*Assignment 1: Ray tracing*](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) 
 
 * 09/25: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.key.zip)
 * 10/02: [04 - Viewing Transformations and Rasterization (Chapter 7, 8)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.key.zip)
 * 10/16: [05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg17/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.key.zip)
 
-*Assignment 2: 2D Vector graphics editor*
+[*Assignment 2: 2D Vector graphics editor*](Assignment_2/requirements/Assignment-2_2D_Editor.pdf) 
 
 * 10/23: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg17/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.key.zip)
 
@@ -87,6 +87,8 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [Assignment 1: Ray tracing](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) [(latex)](Assignment_1/requirements/Assignment-1_Ray_Tracing.tex)
 
+* [Assignment 2: 2D Vector graphics editor](Assignment_2/requirements/Assignment-2_2D_Editor.pdf) [(latex)](Assignment_2/requirements/Assignment-2_2D_Editor.tex)
+
 <!-- * [Assignment 2: 2D Drawing App](http://cs.nyu.edu/~panozzo/cg/ex2.pdf)
 
 * [Assignment 3: 3D Scene Editor](http://cs.nyu.edu/~panozzo/cg/ex3.pdf)
@@ -96,11 +98,11 @@ The course schedule is tentative and *will* be adjusted along the way.
 # Compilation Instructions
 
 ```bash
-git clone --recursive https://github.com/NYUCG2017/assignment-1-username
-cd assignment-1-username
+git clone --recursive https://github.com/NYUCG2017/assignment-N-username # --recursive flag is necessary for dependencies 
+cd assignment-N-username 
 mkdir build
 cd build
-cmake ../
+cmake ../ # re-run cmake when you add/delete source files
 make
 ```
 
