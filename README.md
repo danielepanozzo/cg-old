@@ -105,5 +105,9 @@ cd build
 cmake ../ # re-run cmake when you add/delete source files
 make
 ```
+You can substitute `cmake ../` with the following to make the program run faster
+```bash
+cmake -DCMAKE_BUILD_TYPE=Release ../ # use this cmake command instead of the previous linefor faster run
+```
 
 If you are looking for an IDE, I suggest to use [CLion](https://www.jetbrains.com/clion/).
