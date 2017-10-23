@@ -148,7 +148,7 @@ int main(void)
                     "uniform vec3 triangleColor;"
                     "void main()"
                     "{"
-                    "    outColor = vec4(gl_PointCoord.x*2, gl_PointCoord.y, 0.4 - gl_PointCoord.x - gl_PointCoord.y, 1.0);"
+                    "    outColor = vec4(gl_FragCoord.x/640*2, gl_FragCoord.y/480, 0.4 - gl_FragCoord.x/640 - gl_FragCoord.y/480, 1.0);"
                     "}";
 
     // Compile the two shaders and upload the binary to the GPU
