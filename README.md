@@ -55,22 +55,23 @@ The course schedule is tentative and *will* be adjusted along the way.
 * 09/11: [01 - Introduction, Images  (Chapters 1, 2, 3)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.key.zip)
 * 09/18: [02 - Ray Tracing, C++ (Chapter 4, 10)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.key.pdf)
 
-[*Assignment 1: Ray tracing*](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) 
+[*Assignment 1: Ray tracing*](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf)
 
 * 09/25: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.key.zip)
 * 10/02: [04 - Viewing Transformations and Rasterization (Chapter 7, 8)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.key.zip)
 * 10/16: [05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg17/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.key.zip)
 
-[*Assignment 2: 2D Vector graphics editor*](Assignment_2/requirements/Assignment-2_2D_Editor.pdf) 
+[*Assignment 2: 2D Vector graphics editor*](Assignment_2/requirements/Assignment-2_2D_Editor.pdf)
 
 * 10/23: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg17/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.key.zip)
 
-* 10/30: 07 - Designing Interpolating Curves (Chapter 15)
-* 11/06: 08 - Designing Approximating Curves (Chapter 15)
+* 10/30: [07 - Designing Interpolating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg17/Slides/07%20-%20Designing%20Interpolating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/07%20-%20Designing%20Interpolating%20Curves.key.zip)
+
+* 11/06: [08 - Designing Approximating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg17/Slides/08%20-%20Designing%20Approximating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/08%20-%20Designing%20Approximating%20Curves.key.zip)
 
 *Assignment 3: 3D Mesh viewer*
 
-* 11/13: 09 - Designing Surfaces (Chapter 7)]
+* 11/13: [09 - Designing Surfaces (Chapter 7)](http://cs.nyu.edu/~panozzo/cg17/Slides/09%20-%20Designing%20Surfaces.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/09%20-%20Designing%20Surfaces.key.zip)
 
 *Assignment 4: Final Project Discussion*
 
@@ -98,8 +99,8 @@ The course schedule is tentative and *will* be adjusted along the way.
 # Compilation Instructions
 
 ```bash
-git clone --recursive https://github.com/NYUCG2017/assignment-N-username # --recursive flag is necessary for dependencies 
-cd assignment-N-username 
+git clone --recursive https://github.com/NYUCG2017/assignment-N-username # --recursive flag is necessary for dependencies
+cd assignment-N-username
 mkdir build
 cd build
 cmake ../ # re-run cmake when you add/delete source files
