@@ -68,6 +68,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 * 10/30: [07 - Designing Interpolating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg17/Slides/07%20-%20Designing%20Interpolating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/07%20-%20Designing%20Interpolating%20Curves.key.zip)
 
 * 11/06: [08 - Designing Approximating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg17/Slides/08%20-%20Designing%20Approximating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/08%20-%20Designing%20Approximating%20Curves.key.zip)
+
 [*Assignment 3: 3D Mesh viewer*](Assignment_3/requirements/Assignment3_3D.pdf)
 
 
