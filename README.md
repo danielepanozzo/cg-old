@@ -76,11 +76,11 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 *Assignment 4: Final Project Discussion*
 
-* 11/20: 10 - Texture Mapping (Chapter 11)
-* 11/27: 11 - Spatial Data Structures
-* 12/04: 12 - Procedural Noise Generation (Invited Lecture, Prof. Ken Perlin)
-* 12/11: 13 - Animation and Quaternions
-* 12/12: 14 - Mesh Data Structures or Open Q&A for the projects
+* 11/20: [10 - Texture Mapping (Chapter 11)](https://cs.nyu.edu/~panozzo/cg17/Slides/10%20-%20Texture%20Mapping.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/10%20-%20Texture%20Mapping.key.zip)
+* 11/27: [11 - Spatial Data Structures](https://cs.nyu.edu/~panozzo/cg17/Slides/11%20-%20Spatial%20Data%20Structures.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/11%20-%20Spatial%20Data%20Structures.key.zip)
+* 12/04: [12 - Spatial and Skeletan Deformations](https://cs.nyu.edu/~panozzo/cg17/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.key.zip)
+* 12/11: [13 - Mesh Data Structures](https://cs.nyu.edu/~panozzo/cg17/Slides/13%20-%20Meshes.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/13%20-%20Meshes.key.zip)
+* 12/12: 14 - Open Q&A for the projects and final exam
 * 12/19: 15 - FINALS and project presentation
 
 ## Assignments
@@ -91,10 +91,9 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [Assignment 2: 2D Vector graphics editor](Assignment_2/requirements/Assignment-2_2D_Editor.pdf) [(latex)](Assignment_2/requirements/Assignment-2_2D_Editor.tex)
 
-<!-- * [Assignment 2: 2D Drawing App](http://cs.nyu.edu/~panozzo/cg/ex2.pdf)
+* [Assignment 3: 3D Scene Editor](Assignment_3/requirements/Assignment3_3D.pdf)
 
-* [Assignment 3: 3D Scene Editor](http://cs.nyu.edu/~panozzo/cg/ex3.pdf)
-
+<!-- 
 * [Assignment 4: Final Project](http://cs.nyu.edu/~panozzo/cg/ex4.pdf) -->
 
 # Compilation Instructions
