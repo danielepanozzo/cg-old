@@ -1,0 +1,75 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+%\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{epstopdf}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{wrapfig}
+\hypersetup{colorlinks=true}
+
+%\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\renewcommand\familydefault{\sfdefault}
+\newcommand{\todo}[1]{{\bf\textcolor{red}{TODO: #1}}}
+\setlength{\topmargin}{0cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{1cm}
+\setlength{\textheight}{7.7in}
+\setlength{\textwidth}{6.5in}
+\setlength{\oddsidemargin}{0cm}
+\setlength{\evensidemargin}{0cm}
+\setlength{\parindent}{0.25cm}
+\setlength{\parskip}{0.1cm}
+
+\usepackage{fancyhdr,graphicx,lastpage}% http://ctan.org/pkg/{fancyhdr,graphicx,lastpage}
+\fancypagestyle{plain}{
+  \fancyhf{}% Clear header/footer
+  \fancyhead[L]{CSCI-GA.2270-001 - Computer Graphics - Fall 17 }% Right header
+  \fancyhead[R]{\includegraphics[height=20pt]{nyu.pdf}}% Right header
+  \fancyfoot[L]{Daniele Panozzo \\  \today}% Left footer
+  \fancyfoot[R]{\thepage}% Right footer
+}
+\pagestyle{plain}% Set page style to plain.
+
+\begin{document}
+
+\hspace{50pt}
+
+\begin{center}
+
+{\Huge \textbf{Assignment 4: Final Project}}\\
+\vspace{10pt}
+Handout date: 12/04/2017\\
+Submission deadline: 12/17/2017,  23:59 EST\\
+Demo date: 12/18/2016 7.10-9PM
+\end{center}
+%\vspace{0.5cm}
+
+\noindent This homework accounts for 27.5\% of your final grade. 
+
+\section*{Goal of this exercise}
+This is the final project of the class. You are free to decide what you want to work on, as long as it follows the guidelines below.
+
+\subsection*{Submission}
+
+\begin{enumerate}
+\item Follow the link sent by assistant to accept assignment and create repository.
+\item Add a report in pdf format 
+\item Commit and push the code into the repository before the deadline.
+\end{enumerate}
+
+\section{Project Guidelines}
+
+You have to prepare a 1 or 2 pages overview of the project, detailing what you want to do and what is the relation with the topics learned in the class. This document has to be sent to the instructors and it has to be approved before Monday 11th December. The grade of the final project will be given depending on the correctness and completeness of the graphics part of the project (wrt the project overview). Only the parts that are related to computer graphics will be graded.
+
+\paragraph{Software Libraries.} You are free to use any software library you want, as long as it is detailed in the project overview and approved by the instructors.
+
+\paragraph{Minimal Requirements.} The project must use either ray tracing or rasterization to render a scene. The project must use at least one technique that has not been already covered in the previous assignments (i.e. texture mapping, advanced shaders, procedural geometry/materials, virtual reality, raster transparency, raster shadows, or any other technique that is approved by the instructors).
+
+%\bibliographystyle{plain}
+%\bibliography{bib.bib}
+\end{document}  

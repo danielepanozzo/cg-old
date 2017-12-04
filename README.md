@@ -81,7 +81,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 * 12/04: [12 - Spatial and Skeletan Deformations](https://cs.nyu.edu/~panozzo/cg17/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.key.zip)
 * 12/11: [13 - Mesh Data Structures](https://cs.nyu.edu/~panozzo/cg17/Slides/13%20-%20Meshes.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/13%20-%20Meshes.key.zip)
 * 12/12: 14 - Open Q&A for the projects and final exam
-* 12/19: 15 - FINALS and project presentation
+* 12/18: 15 - FINALS and project presentation
 
 ## Assignments
 
@@ -93,8 +93,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [Assignment 3: 3D Scene Editor](Assignment_3/requirements/Assignment3_3D.pdf)
 
-<!-- 
-* [Assignment 4: Final Project](http://cs.nyu.edu/~panozzo/cg/ex4.pdf) -->
+* [Assignment 4: Final Project](Assignment_4/requirements/Assignment4.pdf)
 
 # Compilation Instructions
 
@@ -111,4 +110,4 @@ You can substitute `cmake ../` with the following to make the program run faster
 cmake -DCMAKE_BUILD_TYPE=Release ../ # use this cmake command instead of the previous linefor faster run
 ```
 
-If you are looking for an IDE, I suggest to use [CLion](https://www.jetbrains.com/clion/).
+If you are looking for an IDE, I suggest to use [CLion](https://www.jetbrains.com/clion/) or [VSCode](https://code.visualstudio.com).
