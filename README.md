@@ -80,7 +80,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 * 11/27: [11 - Spatial Data Structures](https://cs.nyu.edu/~panozzo/cg17/Slides/11%20-%20Spatial%20Data%20Structures.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/11%20-%20Spatial%20Data%20Structures.key.zip)
 * 12/04: [12 - Spatial and Skeletan Deformations](https://cs.nyu.edu/~panozzo/cg17/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.key.zip)
 * 12/11: [13 - Mesh Data Structures](https://cs.nyu.edu/~panozzo/cg17/Slides/13%20-%20Meshes.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/13%20-%20Meshes.key.zip)
-* 12/12: 14 - Open Q&A for the projects and final exam
+* 12/12: [14 - Texture Synthesis](https://cs.nyu.edu/~panozzo/cg17/Slides/14%20-%20Procedural%20Synthesis.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/14%20-%20Procedural%20Synthesis.zip)
 * 12/18: 15 - FINALS and project presentation
 
 ## Assignments
