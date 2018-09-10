@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.org/danielepanozzo/cg.svg?branch=master)](https://travis-ci.org/danielepanozzo/cg)
 [![Build status](https://ci.appveyor.com/api/projects/status/3b1dti4xig8i3c4a?svg=true)](https://ci.appveyor.com/project/danielepanozzo/cg)
 
-# Graduate Computer Graphics, CSCI-GA 2270-001 Fall 2017
+# Graduate Computer Graphics, CSCI-GA 2270-001 Fall 2018
 
 ### Course Instructor
 *Daniele Panozzo*
@@ -17,17 +17,17 @@ URL: [http://cs.nyu.edu/~panozzo/](http://cs.nyu.edu/~panozzo/)
 Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor, Room 504
 
 ### Assistant
-*Zhongshi Jiang*
+*Hanxiao Shen*
 
-[jiangzs@nyu.edu](mailto:jiangzs@nyu.edu)
+[hs3048@nyu.edu](mailto:hs3048@nyu.edu)
 
-[http://cs.nyu.edu/~zhongshi/](http://cs.nyu.edu/~zhongshi/)
+[https://www.linkedin.com/in/hankshen/](https://www.linkedin.com/in/hankshen/)
 
-Office Hours: Tuesdays and Thursday, 2pm-3pm, 60 5th Ave, 5th Floor, Room 540.
+Office Hours: TBD
 
 ### Lectures:
 Mondays at 7:10pm - 9pm
-60 Fifth Ave C10
+194M 307
 
 ## Course Description
 
@@ -52,48 +52,48 @@ ISBN 9781482229394
 
 The course schedule is tentative and *will* be adjusted along the way.
 
-* 09/11: [01 - Introduction, Images  (Chapters 1, 2, 3)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/01%20-%20Introduction,%20Images.key.zip)
-* 09/18: [02 - Ray Tracing, C++ (Chapter 4, 10)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/02%20-%20Ray%20Tracing,%20C++.key.pdf)
+* 09/10: [01 - Introduction, Images  (Chapters 1, 2, 3)](http://cs.nyu.edu/~panozzo/cg18/Slides/01%20-%20Introduction,%20Images.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/01%20-%20Introduction,%20Images.key.zip)
+* 09/17: [02 - Ray Tracing, C++ (Chapter 4, 10)](http://cs.nyu.edu/~panozzo/cg18/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/02%20-%20Ray%20Tracing,%20C++.key.pdf)
 
-[*Assignment 1: Ray tracing*](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf)
+<!-- [*Assignment 1: Ray tracing*](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf)
 
-* 09/25: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.key.zip)
-* 10/02: [04 - Viewing Transformations and Rasterization (Chapter 7, 8)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.key.zip)
-* 10/16: [05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg17/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.key.zip)
+* 09/24: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg18/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.key.zip)
+* 10/01: [04 - Viewing Transformations and Rasterization (Chapter 7, 8)](http://cs.nyu.edu/~panozzo/cg18/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.key.zip)
+* 10/9: [05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg18/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.key.zip)
 
 [*Assignment 2: 2D Vector graphics editor*](Assignment_2/requirements/Assignment-2_2D_Editor.pdf)
 
-* 10/23: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg17/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.key.zip)
+* 10/15: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg18/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.key.zip)
 
-* 10/30: [07 - Designing Interpolating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg17/Slides/07%20-%20Designing%20Interpolating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/07%20-%20Designing%20Interpolating%20Curves.key.zip)
+* 10/22: [07 - Designing Interpolating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg18/Slides/07%20-%20Designing%20Interpolating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/07%20-%20Designing%20Interpolating%20Curves.key.zip)
 
-* 11/06: [08 - Designing Approximating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg17/Slides/08%20-%20Designing%20Approximating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/08%20-%20Designing%20Approximating%20Curves.key.zip)
+* 10/29: [08 - Designing Approximating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg18/Slides/08%20-%20Designing%20Approximating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/08%20-%20Designing%20Approximating%20Curves.key.zip)
 
 [*Assignment 3: 3D Mesh viewer*](Assignment_3/requirements/Assignment3_3D.pdf)
 
 
-* 11/13: [09 - Designing Surfaces (Chapter 7)](http://cs.nyu.edu/~panozzo/cg17/Slides/09%20-%20Designing%20Surfaces.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg17/Slides/09%20-%20Designing%20Surfaces.key.zip)
+* 11/05: [09 - Designing Surfaces (Chapter 7)](http://cs.nyu.edu/~panozzo/cg18/Slides/09%20-%20Designing%20Surfaces.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/09%20-%20Designing%20Surfaces.key.zip)
 
 *Assignment 4: Final Project Discussion*
 
-* 11/20: [10 - Texture Mapping (Chapter 11)](https://cs.nyu.edu/~panozzo/cg17/Slides/10%20-%20Texture%20Mapping.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/10%20-%20Texture%20Mapping.key.zip)
-* 11/27: [11 - Spatial Data Structures](https://cs.nyu.edu/~panozzo/cg17/Slides/11%20-%20Spatial%20Data%20Structures.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/11%20-%20Spatial%20Data%20Structures.key.zip)
-* 12/04: [12 - Spatial and Skeletan Deformations](https://cs.nyu.edu/~panozzo/cg17/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.key.zip)
-* 12/11: [13 - Mesh Data Structures](https://cs.nyu.edu/~panozzo/cg17/Slides/13%20-%20Meshes.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/13%20-%20Meshes.key.zip)
-* 12/12: [14 - Texture Synthesis](https://cs.nyu.edu/~panozzo/cg17/Slides/14%20-%20Procedural%20Synthesis.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg17/Slides/14%20-%20Procedural%20Synthesis.zip)
-* 12/18: 15 - FINALS and project presentation
+* 11/12: [10 - Texture Mapping (Chapter 11)](https://cs.nyu.edu/~panozzo/cg18/Slides/10%20-%20Texture%20Mapping.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/10%20-%20Texture%20Mapping.key.zip)
+* 11/19: [11 - Spatial Data Structures](https://cs.nyu.edu/~panozzo/cg18/Slides/11%20-%20Spatial%20Data%20Structures.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/11%20-%20Spatial%20Data%20Structures.key.zip)
+* 11/26: [12 - Spatial and Skeletan Deformations](https://cs.nyu.edu/~panozzo/cg18/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.key.zip)
+* 12/03: [13 - Mesh Data Structures](https://cs.nyu.edu/~panozzo/cg18/Slides/13%20-%20Meshes.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/13%20-%20Meshes.key.zip)
+* 12/10: [14 - Texture Synthesis](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.zip)
+* 12/17: 15 - FINALS and project presentation -->
 
 ## Assignments
 
-* [General guidelines](http://cs.nyu.edu/~panozzo/cg17/Assignments/0%20-%20General%20Rules.pdf) [(latex)](http://cs.nyu.edu/~panozzo/cg17/Assignments/0%20-%20General%20Rules.zip)
+<!-- * [General guidelines](http://cs.nyu.edu/~panozzo/cg18/Assignments/0%20-%20General%20Rules.pdf) [(latex)](http://cs.nyu.edu/~panozzo/cg18/Assignments/0%20-%20General%20Rules.zip)
 
-* [Assignment 1: Ray tracing](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) [(latex)](Assignment_1/requirements/Assignment-1_Ray_Tracing.tex)
+ * [Assignment 1: Ray tracing](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) [(latex)](Assignment_1/requirements/Assignment-1_Ray_Tracing.tex)
 
 * [Assignment 2: 2D Vector graphics editor](Assignment_2/requirements/Assignment-2_2D_Editor.pdf) [(latex)](Assignment_2/requirements/Assignment-2_2D_Editor.tex)
 
 * [Assignment 3: 3D Scene Editor](Assignment_3/requirements/Assignment3_3D.pdf)
 
-* [Assignment 4: Final Project](Assignment_4/requirements/Assignment4.pdf)
+* [Assignment 4: Final Project](Assignment_4/requirements/Assignment4.pdf) -->
 
 # Compilation Instructions
 
@@ -110,4 +110,4 @@ You can substitute `cmake ../` with the following to make the program run faster
 cmake -DCMAKE_BUILD_TYPE=Release ../ # use this cmake command instead of the previous linefor faster run
 ```
 
-If you are looking for an IDE, I suggest to use [CLion](https://www.jetbrains.com/clion/) or [VSCode](https://code.visualstudio.com).
+If you are looking for an IDE, I suggest to use [VSCode](https://code.visualstudio.com) or [CLion](https://www.jetbrains.com/clion/).
