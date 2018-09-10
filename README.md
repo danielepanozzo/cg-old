@@ -23,7 +23,7 @@ Office Hours: Mondays, 5pm-6pm and by appointment, 60 5th Ave, 5th Floor, Room 5
 
 [https://www.linkedin.com/in/hankshen/](https://www.linkedin.com/in/hankshen/)
 
-Office Hours: TBD
+Office Hours: Wednesdays, 3pm-4pm and by appointment, 60 5th Ave, 5th Floor
 
 ### Lectures:
 Mondays at 7:10pm - 9pm
