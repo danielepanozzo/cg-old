@@ -53,10 +53,11 @@ ISBN 9781482229394
 The course schedule is tentative and *will* be adjusted along the way.
 
 * 09/10: [01 - Introduction, Images  (Chapters 1, 2, 3)](http://cs.nyu.edu/~panozzo/cg18/Slides/01%20-%20Introduction,%20Images.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/01%20-%20Introduction,%20Images.key.zip)
-* 09/17: [02 - Ray Tracing, C++ (Chapter 4, 10)](http://cs.nyu.edu/~panozzo/cg18/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/02%20-%20Ray%20Tracing,%20C++.key.pdf)
+* 09/17: [02 - Ray Tracing, C++ (Chapter 4, 10)](http://cs.nyu.edu/~panozzo/cg18/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/02%20-%20Ray%20Tracing,%20C++.key.zip)
 
-<!-- [*Assignment 1: Ray tracing*](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf)
+<!-- [*Assignment 1: Ray tracing*](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) -->
 
+<!-- 
 * 09/24: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg18/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.key.zip)
 * 10/01: [04 - Viewing Transformations and Rasterization (Chapter 7, 8)](http://cs.nyu.edu/~panozzo/cg18/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.key.zip)
 * 10/9: [05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg18/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.key.zip)
@@ -85,10 +86,11 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 ## Assignments
 
-<!-- * [General guidelines](http://cs.nyu.edu/~panozzo/cg18/Assignments/0%20-%20General%20Rules.pdf) [(latex)](http://cs.nyu.edu/~panozzo/cg18/Assignments/0%20-%20General%20Rules.zip)
+* [General guidelines](Assignment_1/requirements/General_20Rules.pdf) [(latex)](Assignment_1/requirements/General_20Rules.tex)
 
- * [Assignment 1: Ray tracing](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) [(latex)](Assignment_1/requirements/Assignment-1_Ray_Tracing.tex)
+* [Assignment 1: Ray tracing](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) [(latex)](Assignment_1/requirements/Assignment-1_Ray_Tracing.tex)
 
+<!-- 
 * [Assignment 2: 2D Vector graphics editor](Assignment_2/requirements/Assignment-2_2D_Editor.pdf) [(latex)](Assignment_2/requirements/Assignment-2_2D_Editor.tex)
 
 * [Assignment 3: 3D Scene Editor](Assignment_3/requirements/Assignment3_3D.pdf)
