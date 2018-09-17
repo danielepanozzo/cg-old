@@ -86,7 +86,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 ## Assignments
 
-* [General guidelines](Assignment_1/requirements/General_20Rules.pdf) [(latex)](Assignment_1/requirements/General_20Rules.tex)
+* [General guidelines](Assignment_1/requirements/General_Rules.pdf) [(latex)](Assignment_1/requirements/General_Rules.tex)
 
 * [Assignment 1: Ray tracing](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) [(latex)](Assignment_1/requirements/Assignment-1_Ray_Tracing.tex)
 
