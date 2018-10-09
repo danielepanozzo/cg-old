@@ -56,12 +56,12 @@ The course schedule is tentative and *will* be adjusted along the way.
 * 09/17: [02 - Ray Tracing, C++ (Chapter 4, 10)](http://cs.nyu.edu/~panozzo/cg18/Slides/02%20-%20Ray%20Tracing,%20C++.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/02%20-%20Ray%20Tracing,%20C++.key.zip) <!-- [*Assignment 1: Ray tracing*](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) -->
 * 09/24: [03 - Basic Linear Algebra and 2D Transformations (Chapters 2, 5, 6)](http://cs.nyu.edu/~panozzo/cg18/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/03%20-%20Basic%20Linear%20Algebra%20and%202D%20Transformations.key.zip)
 * 10/01: [04 - Viewing Transformations and Rasterization (Chapter 7, 8)](http://cs.nyu.edu/~panozzo/cg18/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.pdf) [ (keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/04%20-%20Viewing%20Transformations,%20Rasterization.key.zip)
-<!-- 
+
 * 10/9: [05 - The OpenGL Graphics Pipeline (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg18/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/05%20-%20The%20OpenGL%20Graphics%20Pipeline.key.zip)
 
-[*Assignment 2: 2D Vector graphics editor*](Assignment_2/requirements/Assignment-2_2D_Editor.pdf)
-
 * 10/15: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg18/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.key.zip)
+
+<!-- 
 
 * 10/22: [07 - Designing Interpolating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg18/Slides/07%20-%20Designing%20Interpolating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/07%20-%20Designing%20Interpolating%20Curves.key.zip)
 
@@ -83,13 +83,13 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 ## Assignments
 
-* [General guidelines](Assignment_1/requirements/General_Rules.pdf) [(latex)](Assignment_1/requirements/General_Rules.tex)
+* [General Guidelines](Assignment_1/requirements/General_Rules.pdf) [(latex)](Assignment_1/requirements/General_Rules.tex)
 
-* [Assignment 1: Ray tracing](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) [(latex)](Assignment_1/requirements/Assignment-1_Ray_Tracing.tex)
+* [Assignment 1: Ray Tracing](Assignment_1/requirements/Assignment-1_Ray_Tracing.pdf) [(latex)](Assignment_1/requirements/Assignment-1_Ray_Tracing.tex)
+
+* [Assignment 2: 2D Vector Graphics Editor](Assignment_2/requirements/Assignment-2_2D_Editor.pdf) [(latex)](Assignment_2/requirements/Assignment-2_2D_Editor.tex)
 
 <!-- 
-* [Assignment 2: 2D Vector graphics editor](Assignment_2/requirements/Assignment-2_2D_Editor.pdf) [(latex)](Assignment_2/requirements/Assignment-2_2D_Editor.tex)
-
 * [Assignment 3: 3D Scene Editor](Assignment_3/requirements/Assignment3_3D.pdf)
 
 * [Assignment 4: Final Project](Assignment_4/requirements/Assignment4.pdf) -->
