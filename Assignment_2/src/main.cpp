@@ -18,6 +18,11 @@ VertexBufferObject VBO;
 // Contains the vertex positions
 Eigen::MatrixXf V(2,3);
 
+void framebuffer_size_callback(GLFWwindow* window, int width, int height)
+{
+    glViewport(0, 0, width, height);
+}
+
 void mouse_button_callback(GLFWwindow* window, int button, int action, int mods)
 {
     // Get the position of the mouse in the window
@@ -170,6 +175,9 @@ int main(void)
 
     // Register the mouse callback
     glfwSetMouseButtonCallback(window, mouse_button_callback);
+
+    // Update viewport
+    glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
 
     // Loop until the user closes the window
     while (!glfwWindowShouldClose(window))
