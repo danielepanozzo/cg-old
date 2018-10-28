@@ -61,18 +61,13 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * 10/15: [06 - The OpenGL Graphics Pipeline - Part 2 (Chapter 8, 17, http://open.gl)](http://cs.nyu.edu/~panozzo/cg18/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/06%20-%20The%20OpenGL%20Graphics%20Pipeline%20Part%202.key.zip)
 
-<!-- 
-
 * 10/22: [07 - Designing Interpolating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg18/Slides/07%20-%20Designing%20Interpolating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/07%20-%20Designing%20Interpolating%20Curves.key.zip)
 
 * 10/29: [08 - Designing Approximating Curves (Chapter 15)](http://cs.nyu.edu/~panozzo/cg18/Slides/08%20-%20Designing%20Approximating%20Curves.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/08%20-%20Designing%20Approximating%20Curves.key.zip)
 
-[*Assignment 3: 3D Mesh viewer*](Assignment_3/requirements/Assignment3_3D.pdf)
-
-
 * 11/05: [09 - Designing Surfaces (Chapter 7)](http://cs.nyu.edu/~panozzo/cg18/Slides/09%20-%20Designing%20Surfaces.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/09%20-%20Designing%20Surfaces.key.zip)
 
-*Assignment 4: Final Project Discussion*
+<!-- *Assignment 4: Final Project Discussion*
 
 * 11/12: [10 - Texture Mapping (Chapter 11)](https://cs.nyu.edu/~panozzo/cg18/Slides/10%20-%20Texture%20Mapping.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/10%20-%20Texture%20Mapping.key.zip)
 * 11/19: [11 - Spatial Data Structures](https://cs.nyu.edu/~panozzo/cg18/Slides/11%20-%20Spatial%20Data%20Structures.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/11%20-%20Spatial%20Data%20Structures.key.zip)
@@ -89,10 +84,9 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [Assignment 2: 2D Vector Graphics Editor](Assignment_2/requirements/Assignment-2_2D_Editor.pdf) [(latex)](Assignment_2/requirements/Assignment-2_2D_Editor.tex)
 
-<!-- 
-* [Assignment 3: 3D Scene Editor](Assignment_3/requirements/Assignment3_3D.pdf)
-
-* [Assignment 4: Final Project](Assignment_4/requirements/Assignment4.pdf) -->
+* [Assignment 3: 3D Scene Editor](Assignment_3/requirements/Assignment3_3D.pdf) [(latex)](Assignment_2/requirements/Assignment3_3D.tex)
+  
+<!-- * [Assignment 4: Final Project](Assignment_4/requirements/Assignment4.pdf) -->
 
 # Compilation Instructions
 
