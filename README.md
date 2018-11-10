@@ -73,7 +73,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 * 12/03: [13 - Mesh Data Structures](https://cs.nyu.edu/~panozzo/cg18/Slides/13%20-%20Meshes.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/13%20-%20Meshes.key.zip)
 * 12/10: [14 - Texture Synthesis](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.zip)
 
-* 12/17: 15 - FINALS and project presentation -->
+* 12/17: 15 - Oral Exam and Final Project Presentation
 
 <!--
 
