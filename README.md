@@ -75,7 +75,6 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * 12/17: 15 - Oral Exam and Final Project Presentation
 
-<!--
 
 ## Assignments
 
