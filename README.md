@@ -67,14 +67,15 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * 11/05: [09 - Designing Surfaces (Chapter 7)](http://cs.nyu.edu/~panozzo/cg18/Slides/09%20-%20Designing%20Surfaces.pdf) [(keynote)](http://cs.nyu.edu/~panozzo/cg18/Slides/09%20-%20Designing%20Surfaces.key.zip)
 
-<!-- *Assignment 4: Final Project Discussion*
-
 * 11/12: [10 - Texture Mapping (Chapter 11)](https://cs.nyu.edu/~panozzo/cg18/Slides/10%20-%20Texture%20Mapping.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/10%20-%20Texture%20Mapping.key.zip)
 * 11/19: [11 - Spatial Data Structures](https://cs.nyu.edu/~panozzo/cg18/Slides/11%20-%20Spatial%20Data%20Structures.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/11%20-%20Spatial%20Data%20Structures.key.zip)
-* 11/26: [12 - Spatial and Skeletan Deformations](https://cs.nyu.edu/~panozzo/cg18/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.key.zip)
+* 11/26: [12 - Spatial and Skeletal Deformations](https://cs.nyu.edu/~panozzo/cg18/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.key.zip)
 * 12/03: [13 - Mesh Data Structures](https://cs.nyu.edu/~panozzo/cg18/Slides/13%20-%20Meshes.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/13%20-%20Meshes.key.zip)
 * 12/10: [14 - Texture Synthesis](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.zip)
+
 * 12/17: 15 - FINALS and project presentation -->
+
+<!--
 
 ## Assignments
 
