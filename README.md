@@ -86,7 +86,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 
 * [Assignment 3: 3D Scene Editor](Assignment_3/requirements/Assignment3_3D.pdf) [(latex)](Assignment_2/requirements/Assignment3_3D.tex)
   
-<!-- * [Assignment 4: Final Project](Assignment_4/requirements/Assignment4.pdf) -->
+* [Assignment 4: Final Project](Assignment_4/requirements/Assignment4.pdf)
 
 # Compilation Instructions
 
