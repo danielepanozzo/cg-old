@@ -71,7 +71,7 @@ The course schedule is tentative and *will* be adjusted along the way.
 * 11/19: [11 - Spatial Data Structures](https://cs.nyu.edu/~panozzo/cg18/Slides/11%20-%20Spatial%20Data%20Structures.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/11%20-%20Spatial%20Data%20Structures.key.zip)
 * 11/26: [12 - Spatial and Skeletal Deformations](https://cs.nyu.edu/~panozzo/cg18/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/12%20-%20Spatial%20and%20Skeletal%20Deformations.key.zip)
 * 12/03: [13 - Mesh Data Structures](https://cs.nyu.edu/~panozzo/cg18/Slides/13%20-%20Meshes.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/13%20-%20Meshes.key.zip)
-* 12/10: [14 - Texture Synthesis](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.zip)
+* 12/10: [14 - Texture Synthesis](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.pdf) [(keynote)](https://cs.nyu.edu/~panozzo/cg18/Slides/14%20-%20Procedural%20Synthesis.key.zip)
 
 * 12/17: 15 - Oral Exam and Final Project Presentation
 
